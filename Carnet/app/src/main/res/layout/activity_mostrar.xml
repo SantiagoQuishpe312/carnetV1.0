@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:textAlignment="center"
+    tools:context=".activity_mostrar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:text="@string/titulo_pag2"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/l00394266"
+        ></ImageView>
+
+        <EditText
+            android:id="@+id/txtMostrarV2"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:ems="10"
+            android:hint="@string/nombre1"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtMostrarV3"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:ems="10"
+            android:hint="@string/apellido1"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imgMostrarQr"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
